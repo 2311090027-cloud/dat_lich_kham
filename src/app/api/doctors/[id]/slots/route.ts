@@ -3,15 +3,16 @@ import { createServerClient } from '@/lib/supabase/server'
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   const supabase = createServerClient()
+  const { id } = await params
   const date = new URL(req.url).searchParams.get('date')
 
   const { data } = await supabase
     .from('doctor_slots')
     .select('*')
-    .eq('doctor_id', params.id)
+    .eq('doctor_id', id)
     .eq('slot_date', date)
     .eq('is_available', true)
     .order('slot_time')

@@ -1,0 +1,16 @@
+doctor_id,name,specialty,clinic_id,experience_years,rating,available_days,start_time,end_time,fee
+D001,BS. Nguyễn Văn An,Tim mạch,C001,15,4.8,"Mon,Tue,Wed,Thu,Fri",08:00,17:00,300000
+D002,BS. Trần Thị Bình,Tim mạch,C002,10,4.6,"Mon,Wed,Fri",08:00,12:00,250000
+D003,BS. Lê Minh Cường,Nội tổng quát,C001,8,4.5,"Tue,Thu,Sat",13:00,18:00,200000
+D004,BS. Phạm Thị Dung,Nội tổng quát,C003,12,4.7,"Mon,Tue,Wed,Thu,Fri",08:00,17:00,220000
+D005,BS. Hoàng Văn Em,Nhi khoa,C002,20,4.9,"Mon,Tue,Wed,Thu,Fri",07:30,16:30,280000
+D006,BS. Nguyễn Thị Phương,Nhi khoa,C004,7,4.4,"Mon,Wed,Fri,Sat",09:00,17:00,200000
+D007,BS. Đỗ Quốc Hùng,Da liễu,C001,11,4.7,"Tue,Thu,Sat",08:00,12:00,350000
+D008,BS. Vũ Thị Lan,Da liễu,C003,9,4.5,"Mon,Tue,Wed,Thu,Fri",13:00,18:00,300000
+D009,BS. Bùi Văn Nam,Xương khớp,C002,14,4.6,"Mon,Wed,Fri",08:00,16:00,320000
+D010,BS. Trương Thị Oanh,Xương khớp,C004,16,4.8,"Tue,Thu",08:00,17:00,350000
+D011,BS. Lý Thanh Phong,Thần kinh,C001,18,4.9,"Mon,Tue,Wed,Thu,Fri",08:00,17:00,400000
+D012,BS. Ngô Thị Quỳnh,Thần kinh,C003,13,4.7,"Mon,Wed,Fri",09:00,15:00,380000
+D013,BS. Phan Văn Rạng,Mắt,C004,10,4.6,"Mon,Tue,Wed,Thu,Fri",08:00,12:00,250000
+D014,BS. Đinh Thị Sen,Mắt,C002,8,4.5,"Tue,Thu,Sat",13:00,18:00,230000
+D015,BS. Cao Minh Tuấn,Tai mũi họng,C003,12,4.8,"Mon,Tue,Wed,Thu,Fri",08:00,17:00,270000

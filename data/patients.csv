@@ -1,0 +1,4 @@
+patient_id,name,email,phone,address,district,lat,lng,dob,gender
+P001,Nguyễn Văn Bảo,bao.nguyen@email.com,0912345678,45 Bạch Mai,Hai Bà Trưng,21.0180,105.8500,1990-05-15,Nam
+P002,Trần Thị Cẩm,cam.tran@email.com,0987654321,12 Láng Hạ,Đống Đa,21.0220,105.8300,1985-08-22,Nữ
+P003,Lê Văn Dũng,dung.le@email.com,0901234567,78 Xuân Diệu,Tây Hồ,21.0500,105.8280,1995-12-01,Nam

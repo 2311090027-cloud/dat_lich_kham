@@ -1,0 +1,5 @@
+clinic_id,name,address,district,lat,lng,phone,rating,base_fee
+C001,Phòng khám Đa khoa Hà Nội,123 Phố Huế - Hai Bà Trưng,Hai Bà Trưng,21.0245,105.8412,024-3825-1234,4.7,150000
+C002,Bệnh viện Thu Cúc,286 Thụy Khuê - Tây Hồ,Tây Hồ,21.0448,105.8312,024-3538-5555,4.8,200000
+C003,Phòng khám Quốc tế Việt Pháp,1 Phương Mai - Đống Đa,Đống Đa,21.0195,105.8420,024-3577-1100,4.6,180000
+C004,Phòng khám Đa khoa Medlatec,42-44 Nghĩa Dũng - Ba Đình,Ba Đình,21.0392,105.8320,1900-3366,4.5,160000

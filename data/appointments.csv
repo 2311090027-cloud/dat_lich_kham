@@ -1,0 +1,4 @@
+appointment_id,patient_id,doctor_id,clinic_id,date,time,status,symptoms,notes,created_at
+A001,P001,D001,C001,2026-06-10,09:00,confirmed,Đau ngực khó thở,,2026-06-01 10:00:00
+A002,P002,D005,C002,2026-06-11,10:30,confirmed,Trẻ sốt ho,,2026-06-02 14:00:00
+A003,P001,D007,C001,2026-06-15,08:30,pending,Nổi mẩn ngứa,,2026-06-05 09:00:00

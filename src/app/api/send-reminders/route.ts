@@ -1,4 +1,5 @@
-import { createClient } from '@/lib/supabase/server';
+﻿
+import { createServerClient } from '@/lib/supabase/server';
 import { sendReminderEmail } from '@/lib/send-reminder-email';
 import { NextResponse } from 'next/server';
 
@@ -8,7 +9,7 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
-  const supabase = await createClient();
+  const supabase = await createServerClient();
   const tomorrow = new Date();
   tomorrow.setDate(tomorrow.getDate() + 1);
   const tomorrowStr = tomorrow.toISOString().split('T')[0];

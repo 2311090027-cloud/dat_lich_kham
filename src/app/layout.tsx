@@ -54,7 +54,7 @@ function Header() {
           }}>🏥</div>
           <div>
             <div style={{ fontSize: 16, fontWeight: 700, color: '#1A5276', lineHeight: 1.2 }}>
-              ĐặtLịchKhám
+              Đặt Lịch Khám
             </div>
             <div style={{ fontSize: 10, color: '#7F8C8D', letterSpacing: 0.5 }}>
               HỆ THỐNG Y TẾ
@@ -86,16 +86,6 @@ function Header() {
           ))}
         </nav>
 
-        {/* Hotline */}
-        <div style={{
-          display: 'flex', alignItems: 'center', gap: 8,
-          padding: '6px 14px', background: '#E9F7EF',
-          border: '1px solid #A9DFBF', borderRadius: 20,
-          fontSize: 12, color: '#1E8449'
-        }}>
-          <span>📞</span>
-          <span style={{ fontWeight: 600 }}>1800 599 920</span>
-        </div>
 
         {/* User */}
         {user ? (
@@ -245,19 +235,19 @@ function Footer() {
             <div style={{ fontSize: 12, opacity: 0.7, lineHeight: 2 }}>
               <div>📞 Hotline: 1800 599 920</div>
               <div>✉️ support@datlichkham.vn</div>
-              <div>⏰ 7:00 - 21:00 hàng ngày</div>
+              <div>⏰ 7:00 - 22:00 hàng ngày</div>
               <div>📍 Hà Nội, Việt Nam</div>
             </div>
           </div>
           <div>
             <h4 style={{ fontSize: 13, fontWeight: 600, marginBottom: 12, opacity: 0.9 }}>CAM KẾT</h4>
-            {['🔒 Bảo mật thông tin', '✅ Bác sĩ được xác minh', '⚡ Đặt lịch trong 60 giây', '💊 Đa chuyên khoa'].map(item => (
+            {['🔒 Bảo mật thông tin bệnh nhân', '✅ Đội ngũ bác sĩ chuyên nghiệp', '⚡ Đặt lịch nhanh chóng', '💊 Đa khoa '].map(item => (
               <div key={item} style={{ fontSize: 12, opacity: 0.7, marginBottom: 8 }}>{item}</div>
             ))}
           </div>
         </div>
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 20, textAlign: 'center', fontSize: 12, opacity: 0.5 }}>
-          © 2026 ĐặtLịchKhám. Bảo lưu mọi quyền.
+          © 2026 Đặt Lịch Khám. Được thiết kế và phát triển bởi plynh#2203 .
         </div>
       </div>
     </footer>

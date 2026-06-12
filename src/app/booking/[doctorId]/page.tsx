@@ -301,7 +301,7 @@ export default function BookingPage({ params }: { params: Promise<{ doctorId: st
               Triệu chứng / lý do khám
             </label>
             <textarea
-              placeholder="Mô tả triệu chứng hoặc lý do khám để bác sĩ chuẩn bị tốt hơn..."
+              placeholder="Mô tả triệu chứng hoặc lý do..."
               value={form.symptoms}
               onChange={e => setForm({ ...form, symptoms: e.target.value })}
               style={{ ...inputStyle, height: 100, resize: 'none' }}

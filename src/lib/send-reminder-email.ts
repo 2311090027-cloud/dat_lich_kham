@@ -1,6 +1,12 @@
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: process.env.GMAIL_USER,
+    pass: process.env.GMAIL_APP_PASSWORD,
+  },
+});
 
 export async function sendReminderEmail(
   toEmail: string,
@@ -10,8 +16,8 @@ export async function sendReminderEmail(
   appointmentDate: string,
   appointmentTime: string
 ) {
-  await resend.emails.send({
-    from: 'ĐặtLịchKhám <onboarding@resend.dev>',
+  await transporter.sendMail({
+    from: `ĐặtLịchKhám <${process.env.GMAIL_USER}>`,
     to: toEmail,
     subject: '🏥 Nhắc lịch khám ngày mai',
     html: `
@@ -25,7 +31,7 @@ export async function sendReminderEmail(
           <p>📅 Ngày: <strong>${appointmentDate}</strong></p>
           <p>⏰ Giờ: <strong>${appointmentTime}</strong></p>
         </div>
-        <p>Vui lòng đến đúng giờ. Chúc bạn sức khỏe!</p>
+        <p>Vui lòng đến đúng giờ. Chúc bạn có thật nhiều sức khỏe! 💙</p>
       </div>
     `,
   });
